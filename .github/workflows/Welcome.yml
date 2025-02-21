@@ -19,4 +19,4 @@ jobs:
         run: python -V
 
       - name: Run sample Python file
-        run: python ../../src/welcome.py
+        run: python src/welcome.py
