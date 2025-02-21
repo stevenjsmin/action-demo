@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: 1. 파일 목록 출력
-      run: ls -al
+      run: ls -al && ls -al src/
     - name: 2. 설치되어 있는 패키지 확인
       run: pip list
     - name: 3. pip 업그래이드
