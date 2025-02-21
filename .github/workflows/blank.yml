@@ -6,12 +6,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: 출력 : Hello world
-      run: echo "Hello world"
-
-    - name: 디렉토리 출력
-      run: ls -al
-
-    - name: 파이선 버전 출력
-      run: python -V
-        
+      - name: 출력 : Hello world
+        run: echo "Hello world"
