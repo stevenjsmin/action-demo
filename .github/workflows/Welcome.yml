@@ -10,7 +10,7 @@ jobs:
         run: echo "Hello world"
         
       - name: Show foler and files
-        run: ls -al
+        run: pwd && ls -al
 
       - name: Show Python version
         run: python -V
