@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Steven Test Actions
 
 on: [push]
@@ -7,10 +5,9 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
     - name: 출력 : Hello world
-      run: echo "Hello world|"
+      run: echo "Hello world"
 
     - name: 디렉토리 출력
       run: ls -al
