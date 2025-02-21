@@ -6,5 +6,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: 출력 : Hello world
+      - name: Hello world
         run: echo "Hello world"
